@@ -5,3 +5,6 @@ all:
 	pdflatex $(FILE)
 	mv $(FILE).pdf $(RESULT).pdf
 	open $(RESULT).pdf
+
+clean:
+	rm $(RESULT).pdf $(FILE).log
