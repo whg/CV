@@ -1,19 +1,22 @@
-\documentclass[margin,line,a4paper]{resume}
-%\usepackage[top=1cm, bottom=1cm]{geometry}
 
+% - - - My Curriculum Vitae - - - 
+
+% Thanks to Thomas Jansson for template/class
+% http://www.tjansson.dk/?p=604
+% which originally came from here:
+% http://linux.dsplabs.com.au/?p=54
+% which itself was inspired by:
+% http://www.biostat.harvard.edu/~paciorek/computingTips/computingTips.html
+
+\documentclass[margin,line,a4paper]{resume}
 
 \usepackage[usenames,dvipsnames]{color}
-\usepackage{hyperref}
-\hypersetup{
-    colorlinks,%
-    citecolor=black,%
-    filecolor=black,%
-    linkcolor=cyan,%
-    urlcolor=black
-}
+\usepackage[colorlinks]{hyperref}
+% after this we set web links to blue and mail links to blue
 
 \begin{document}
 \name{\LARGE Will Gallia}
+
 \begin{resume}
 
 % - - - Contact - - - 
@@ -38,7 +41,7 @@ As part of the TDA’s Student Associate scheme, I worked along side teachers in
 
 \textbf{greyworld}, London  \vspace{1mm}\\
 \textsl{Computer Programmer} \hfill 07.2010 - 09.2010 \vspace{2mm} \\
-As a summer job, I programmed real-time generative visuals for London based art collective \href{http://greyworld.org}{greyworld}. During this project I worked alongside greyworld’s founder, Andrew Shoben and advertising agency Ogilvy, programming their ideas.
+As a summer job, I programmed real-time generative visuals for London based art collective \href{http://greyworld.org}{greyworld}. During this project I worked alongside greyworld's founder, Andrew Shoben and advertising agency Ogilvy, programming their ideas.
 
 \textbf{Dursley Swimming Pool and Sports Centre}, Gloucestershire  \vspace{1mm}\\
 \textsl{Lifeguard} \hfill 07.2007 - 01.2008 \vspace{2mm} \\
@@ -69,7 +72,7 @@ GCSE: 4 A*, 5 A, 2 B \\
 \section{\mysidestyle Skills}
 
 \textbf{Computer Programming} \vspace{1mm} \\
-I have experience programming in a number of languages and environments. At University I program in Java, C, C++ and GNU Octave for projects that include multi-threaded servers to computer vision to digital signal processing. Outside of University, I work on websites and other projects using languages such as Python, JavaScript, PHP and MySQL.
+I have experience programming in a number of languages and environments. At University I program in Java, C, C++ and GNU Octave for projects ranging from multi-threaded servers to computer vision to digital signal processing. Outside of University, I work on websites and other projects using languages such as Python, JavaScript, PHP and MySQL.
 
 I have great experience working with graphical languages such as Processing, and libraries such as openFrameworks as well as OpenGL and GLSL.
 
@@ -86,7 +89,7 @@ I have many years of experience with Adobe tools such as Photoshop and Illustrat
 For a project in a graphics course at Univeristy, I visualised real Underground journeys published by Transport for London. I programmed this in OpenGL, where every journey was stored as a pixel in a buffer object and transformations were applied by the GPU using GLSL.
 
 \textbf{Fabricate} \vspace{1mm} \\
-\href{https://github.com/whg/fabricate}{Fabricate}, which is running my personal website, creates dynamic websites from text files, where 100\% of the content is generated on the client side. It allows uses to navigate the site via a command line. Content is pushed to a remote server automatically. It was made using JavaScript, Python and shell scripts.
+\href{https://github.com/whg/fabricate}{Fabricate}, which is running my personal website, creates dynamic websites from text files, where 100\% of the content is generated on the client side. Features include navigation via a command line and automatic pushing of content. It was made using JavaScript, Python and shell scripts.
 
 \textbf{Pedro \& Sybil} \vspace{1mm} \\
 For a second year project at University, I built and programmed a plotter (Pedro) and also wrote an accompanying piece of software to control it (Sybil). Full details, images, videos and code can be seen at: \href{http://pedroandsybil.com}{pedroandsybil.com}. The plotter is controlled via a USB port on a laptop, where users can preview and manipulate the text/images before they are drawn.  The software is native Mac OS X application programmed in C++/Objective-C using Cocoa and openFrameworks. The plotter’s firmware is programmed directly in C. All source code is open.
