@@ -772,7 +772,7 @@
 % with everything in the left of its column
 
 \@secpenalty = -500
-\topmargin 4pt
+\topmargin 0pt
 \headheight 0pt
 \headsep 0pt
 \textheight 8in
@@ -818,8 +818,8 @@
 \textwidth=125mm
 \itemsep=0cm
 \parsep=0cm
-\topmargin 10mm
-\textheight 215mm
+\topmargin 1mm
+\textheight 255mm
 
 \newenvironment{list1}{
   \begin{list}{\ding{113}}{%
